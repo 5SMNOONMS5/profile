@@ -2,12 +2,12 @@ import { AppConfigInput } from 'nuxt/schema'
 
 export default defineAppConfig({
   awesome: {
-    name: 'Nuxt 3 Awesome Starter',
+    name: 'Stephen Chen Portfolio',
     description:
       'a starter template for Nuxt 3 with minimalist themes design, built in components, drawer & menus, and more.',
     project: {
       links: {
-        github: 'https://github.com/viandwi24/nuxt3-awesome-starter',
+        github: 'https://github.com/5SMNOONMS5',
       },
     },
     layout: {
@@ -43,16 +43,16 @@ export default defineAppConfig({
         year: new Date().getFullYear(),
       },
       welcome: {
-        title: 'Nuxt&nbsp;3 Awesome Starter',
+        title: 'Hi I&nbsp;am Stephen&nbsp;Chen',
         disableInfoReplaceIndexInWelcomePage: true,
       },
     },
     author: {
-      name: 'viandwi24',
+      name: 'stephen chen',
       links: {
-        github: 'https://github.com/viandwi24',
-        medium: 'https://viandwi24.medium.com',
-        website: 'https://viandwi24.site',
+        github: 'https://github.com/5SMNOONMS5',
+        medium: 'https://tasb00429.medium.com/',
+        website: 'stephen-chen-portfolio.netlify.app',
       },
     },
   },
