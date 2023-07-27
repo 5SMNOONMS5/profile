@@ -98,12 +98,16 @@ export default defineAppConfig({
         title: 'Nuxt&nbsp;3 Awesome Starter',
         disableInfoReplaceIndexInWelcomePage: true,
         primaryActionButton: {
-          title: 'Nuxt 3',
-          to: 'https://nuxt.com/',
+          title: 'Github',
+          to: 'https://github.com/5SMNOONMS5',
         },
         secondaryActionButton: {
-          title: 'Github',
-          to: 'https://github.com/viandwi24/nuxt3-awesome-starter',
+          title: 'Stack overflow',
+          to: 'https://stackoverflow.com/users/3672927/stephen-chen',
+        },
+        thirdActionButton: {
+          title: 'Medium',
+          to: 'https://medium.com/@tasb00429',
         },
       },
     },

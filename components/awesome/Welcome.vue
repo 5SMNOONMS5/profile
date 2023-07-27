@@ -76,34 +76,45 @@ const leadingsText = computed(() => [
             size="lg"
             :text="
               parseMenuTitle(
-                awesome?.layout?.welcome?.primaryActionButton?.title || 'Nuxt 3'
+                awesome?.layout?.welcome?.primaryActionButton?.title || 'Github'
               )
             "
             :to="
               parseMenuRoute(
                 awesome?.layout?.welcome?.primaryActionButton?.to ||
-                  'https://nuxt.com'
+                  'https://github.com/5SMNOONMS5'
               )
             "
             class="font-extrabold"
           />
           <AwesomeButton
-            v-if="
-              parseMenuRoute(
-                awesome?.layout?.welcome?.secondaryActionButton?.to ||
-                  awesome?.project?.links?.github
-              )
-            "
             :text="
               parseMenuTitle(
                 awesome?.layout?.welcome?.secondaryActionButton?.title ||
-                  'Github'
+                  'Stack overflow'
               )
             "
             :to="
               parseMenuRoute(
                 awesome?.layout?.welcome?.secondaryActionButton?.to ||
                   awesome?.project?.links?.github
+              )
+            "
+            size="lg"
+            class="font-extrabold"
+            type="secondary"
+          />
+          <AwesomeButton
+            :text="
+              parseMenuTitle(
+                awesome?.layout?.welcome?.thirdActionButton?.title ||
+                  'Medium'
+              )
+            "
+            :to="
+              parseMenuRoute(
+                awesome?.layout?.welcome?.secondaryActionButton?.to ||
+                  'https://medium.com/@tasb00429'
               )
             "
             size="lg"
