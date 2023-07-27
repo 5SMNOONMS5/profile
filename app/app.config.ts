@@ -4,7 +4,7 @@ export default defineAppConfig({
   awesome: {
     name: 'Stephen Chen Portfolio',
     description:
-      'a starter template for Nuxt 3 with minimalist themes design, built in components, drawer & menus, and more.',
+      'A PHP backend developer with some Vue skills and six years of experience in iOS development, who is passionate about web development and design.',
     project: {
       links: {
         github: 'https://github.com/5SMNOONMS5',
